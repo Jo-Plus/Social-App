@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# Ignore uploaded images
+images/
+
 # Environment variables
 .env
 .env.dev
