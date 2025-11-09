@@ -1,15 +1,15 @@
 {
   "name": "youssef-abass",
   "version": "1.0.0",
+  "private": true,
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app",
     "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.7.0",
